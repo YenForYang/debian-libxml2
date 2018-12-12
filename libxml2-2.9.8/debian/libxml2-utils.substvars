@@ -1,0 +1,3 @@
+shlibs:Depends=libc6 (>= 2.7), libgcc1 (>= 1:3.0), libreadline7 (>= 6.0), libxml2 (>= 2.7.4)
+misc:Depends=
+misc:Pre-Depends=

@@ -1,0 +1,12 @@
+{
+    "driver_name" : "icc",
+    "options" : [ "-I.", "-I../..", "-I./include", "-I../../include", "-march=native", "-parallel", "-inline-level=2", "-qemit-build-options", "-qemit-messages", "-multiple-processes=8", "-qoverride-limits", "-falign-loops", "-falign-functions", "-qopt-matmul", "-qopt-mem-layout-trans", "-fpermissive", "-ipo-jobs4", "-Wl,--as-needed,--gc-sections,--print-memory-usage,--relax,--stats", "-ffunction-sections", "-fdata-sections", "-diag-disable=10148,10006,10121,11021,10237", "-par-schedule-auto", "-ipo", "-DHAVE_CONFIG_H", "-Wdate-time", "-D_FORTIFY_SOURCE=2", "-D_REENTRANT", "-g", "-O2", "-fdebug-prefix-map=/home/richard/debs/misc/libxml2/libxml2=.", "-fstack-protector-strong", "-Wformat", "-Werror=format-security", "-march=native", "-pipe", "-Wall", "-O3", "-pedantic", "-W", "-Wformat", "-Wno-format-extra-args", "-Wunused", "-Wimplicit", "-Wreturn-type", "-Wswitch", "-Wcomment", "-Wtrigraphs", "-Wchar-subscripts", "-Wuninitialized", "-Wparentheses", "-Wshadow", "-Wpointer-arith", "-Wcast-align", "-Wwrite-strings", "-Waggregate-return", "-Wstrict-prototypes", "-Wmissing-prototypes", "-Wnested-externs", "-Winline", "-Wredundant-decls", "-Wno-long-long", "-c", "-o", "SAX.o" ],
+    "objects" : [
+        {
+            "object_name" : "SAX.o",
+            "source_name" : "../../SAX.c",
+            "start_time" : "2018-12-03T01:48:38Z",
+            "end_time" : "2018-12-03T01:48:38Z"
+        }
+    ]
+}

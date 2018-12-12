@@ -1,0 +1,210 @@
+{
+    "driver_name" : "icc",
+    "options" : [ "-I.", "-I../..", "-I./include", "-I../../include", "-march=native", "-parallel", "-inline-level=2", "-qemit-build-options", "-qemit-messages", "-multiple-processes=8", "-qoverride-limits", "-falign-loops", "-falign-functions", "-qopt-matmul", "-qopt-mem-layout-trans", "-fpermissive", "-ipo-jobs4", "-Wl,--as-needed,--gc-sections,--print-memory-usage,--relax,--stats", "-ffunction-sections", "-fdata-sections", "-diag-disable=10148,10006,10121,11021,10237", "-par-schedule-auto", "-ipo", "-DHAVE_CONFIG_H", "-Wdate-time", "-D_FORTIFY_SOURCE=2", "-D_REENTRANT", "-g", "-O2", "-fdebug-prefix-map=/home/richard/debs/misc/libxml2/libxml2=.", "-fstack-protector-strong", "-Wformat", "-Werror=format-security", "-march=native", "-pipe", "-Wall", "-O3", "-pedantic", "-W", "-Wformat", "-Wno-format-extra-args", "-Wunused", "-Wimplicit", "-Wreturn-type", "-Wswitch", "-Wcomment", "-Wtrigraphs", "-Wchar-subscripts", "-Wuninitialized", "-Wparentheses", "-Wshadow", "-Wpointer-arith", "-Wcast-align", "-Wwrite-strings", "-Waggregate-return", "-Wstrict-prototypes", "-Wmissing-prototypes", "-Wnested-externs", "-Winline", "-Wredundant-decls", "-Wno-long-long", "-c", "-o", "xpath.o" ],
+    "objects" : [
+        {
+            "object_name" : "xpath.o",
+            "source_name" : "../../xpath.c",
+            "start_time" : "2018-12-03T01:48:41Z",
+            "messages" : [
+                {
+                    "msg" : "variable \"BD\" was set but never used\n      int ABC, BCD, BD, CD;\n                    ^",
+                    "line" : "397",
+                    "diagnostic_num" : "593",
+                    "file" : "..\/..\/timsort.h",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "this switch statement does not have a default clause\n      switch(cur->type) {\n      ^",
+                    "line" : "1389",
+                    "diagnostic_num" : "2338",
+                    "file" : "..\/..\/xpath.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "this switch statement does not have a default clause\n  \t    switch (axis) {\n  \t    ^",
+                    "line" : "1548",
+                    "diagnostic_num" : "2338",
+                    "file" : "..\/..\/xpath.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "this switch statement does not have a default clause\n  \t    switch (test) {\n  \t    ^",
+                    "line" : "1576",
+                    "diagnostic_num" : "2338",
+                    "file" : "..\/..\/xpath.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "this switch statement does not have a default clause\n  \t    switch (type) {\n  \t    ^",
+                    "line" : "1590",
+                    "diagnostic_num" : "2338",
+                    "file" : "..\/..\/xpath.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "this switch statement does not have a default clause\n      switch (val->type) {\n      ^",
+                    "line" : "2658",
+                    "diagnostic_num" : "2338",
+                    "file" : "..\/..\/xpath.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "this switch statement does not have a default clause\n      switch (val->type) {\n      ^",
+                    "line" : "5408",
+                    "diagnostic_num" : "2338",
+                    "file" : "..\/..\/xpath.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "this switch statement does not have a default clause\n      switch (val->type) {\n      ^",
+                    "line" : "5765",
+                    "diagnostic_num" : "2338",
+                    "file" : "..\/..\/xpath.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "this switch statement does not have a default clause\n      switch (val->type) {\n      ^",
+                    "line" : "5812",
+                    "diagnostic_num" : "2338",
+                    "file" : "..\/..\/xpath.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "this switch statement does not have a default clause\n      switch (val->type) {\n      ^",
+                    "line" : "5930",
+                    "diagnostic_num" : "2338",
+                    "file" : "..\/..\/xpath.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "this switch statement does not have a default clause\n      switch (val->type) {\n      ^",
+                    "line" : "6042",
+                    "diagnostic_num" : "2338",
+                    "file" : "..\/..\/xpath.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "this switch statement does not have a default clause\n  \t    switch (arg2->type) {\n  \t    ^",
+                    "line" : "6960",
+                    "diagnostic_num" : "2338",
+                    "file" : "..\/..\/xpath.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "this switch statement does not have a default clause\n  \t    switch (arg2->type) {\n  \t    ^",
+                    "line" : "6998",
+                    "diagnostic_num" : "2338",
+                    "file" : "..\/..\/xpath.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "this switch statement does not have a default clause\n  \t    switch (arg2->type) {\n  \t    ^",
+                    "line" : "7055",
+                    "diagnostic_num" : "2338",
+                    "file" : "..\/..\/xpath.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "this switch statement does not have a default clause\n      switch (arg1->type) {\n      ^",
+                    "line" : "6952",
+                    "diagnostic_num" : "2338",
+                    "file" : "..\/..\/xpath.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "this switch statement does not have a default clause\n  \tswitch (arg2->type) {\n  \t^",
+                    "line" : "7176",
+                    "diagnostic_num" : "2338",
+                    "file" : "..\/..\/xpath.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "this switch statement does not have a default clause\n  \tswitch (arg2->type) {\n  \t^",
+                    "line" : "7261",
+                    "diagnostic_num" : "2338",
+                    "file" : "..\/..\/xpath.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "this switch statement does not have a default clause\n  \tswitch (ctxt->context->node->type) {\n  \t^",
+                    "line" : "7668",
+                    "diagnostic_num" : "2338",
+                    "file" : "..\/..\/xpath.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "this switch statement does not have a default clause\n  \tswitch (ctxt->context->node->type) {\n  \t^",
+                    "line" : "7968",
+                    "diagnostic_num" : "2338",
+                    "file" : "..\/..\/xpath.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "this switch statement does not have a default clause\n  \tswitch (ctxt->context->node->type) {\n  \t^",
+                    "line" : "8041",
+                    "diagnostic_num" : "2338",
+                    "file" : "..\/..\/xpath.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "this switch statement does not have a default clause\n      switch (cur->type) {\n      ^",
+                    "line" : "8093",
+                    "diagnostic_num" : "2338",
+                    "file" : "..\/..\/xpath.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "this switch statement does not have a default clause\n      switch (name[0]) {\n      ^",
+                    "line" : "11260",
+                    "diagnostic_num" : "2338",
+                    "file" : "..\/..\/xpath.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "this switch statement does not have a default clause\n      switch (axis) {\n      ^",
+                    "line" : "12173",
+                    "diagnostic_num" : "2338",
+                    "file" : "..\/..\/xpath.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "this switch statement does not have a default clause\n  \t    switch (test) {\n  \t    ^",
+                    "line" : "12381",
+                    "diagnostic_num" : "2338",
+                    "file" : "..\/..\/xpath.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "this switch statement does not have a default clause\n      switch (op->op) {\n      ^",
+                    "line" : "13299",
+                    "diagnostic_num" : "2338",
+                    "file" : "..\/..\/xpath.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "this switch statement does not have a default clause\n          switch (ctxt->node->type) {\n          ^",
+                    "line" : "14336",
+                    "diagnostic_num" : "2338",
+                    "file" : "..\/..\/xpath.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "function \"trio_is_special_quantity\" was declared but never referenced\n  trio_is_special_quantity\n  ^",
+                    "line" : "194",
+                    "diagnostic_num" : "177",
+                    "file" : "..\/..\/trionan.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "function \"trio_is_negative\" was declared but never referenced\n  trio_is_negative\n  ^",
+                    "line" : "218",
+                    "diagnostic_num" : "177",
+                    "file" : "..\/..\/trionan.c",
+                    "type" : "warning"
+                }
+            ],
+            "end_time" : "2018-12-03T01:48:42Z"
+        }
+    ]
+}

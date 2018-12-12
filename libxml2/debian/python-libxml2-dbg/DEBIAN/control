@@ -1,0 +1,21 @@
+Package: python-libxml2-dbg
+Source: libxml2
+Version: 2.9.4+dfsg1-7
+Architecture: amd64
+Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
+Installed-Size: 1563
+Depends: python-dbg, python-libxml2 (= 2.9.4+dfsg1-7), intel-comp-ps-ss-bec-19.0.1-144, libc6 (>= 2.14), libgcc1 (>= 1:3.0), libpython2.7-dbg (>= 2.7), libxml2 (>= 2.9.1)
+Section: debug
+Priority: optional
+Homepage: http://xmlsoft.org
+Description: Python bindings for the GNOME XML library (debug extension)
+ XML is a metalanguage to let you design your own markup language.
+ A regular markup language defines a way to describe information in
+ a certain class of documents (eg HTML). XML lets you define your
+ own customized markup languages for many classes of document. It
+ can do this because it's written in SGML, the international standard
+ metalanguage for markup languages.
+ .
+ This package contains the files needed to use the GNOME XML library
+ in Python programs for use with the Python debug interpreter.
+Build-Ids: 6db9a2604e20fe6b76287d5dffbb4e98990d03ed

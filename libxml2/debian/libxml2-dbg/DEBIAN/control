@@ -1,0 +1,21 @@
+Package: libxml2-dbg
+Source: libxml2
+Version: 2.9.4+dfsg1-7
+Architecture: amd64
+Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
+Installed-Size: 1827
+Depends: libxml2 (= 2.9.4+dfsg1-7)
+Section: debug
+Priority: optional
+Multi-Arch: same
+Homepage: http://xmlsoft.org
+Description: Debugging symbols for the GNOME XML library
+ XML is a metalanguage to let you design your own markup language.
+ A regular markup language defines a way to describe information in
+ a certain class of documents (eg HTML). XML lets you define your
+ own customized markup languages for many classes of document. It
+ can do this because it's written in SGML, the international standard
+ metalanguage for markup languages.
+ .
+ This package provides the debugging symbols for the library.
+Build-Ids: 4036fed47bb9f3acecda0ca1679f1d7000a33caf

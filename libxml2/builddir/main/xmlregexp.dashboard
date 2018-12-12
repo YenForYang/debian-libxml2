@@ -1,0 +1,84 @@
+{
+    "driver_name" : "icc",
+    "options" : [ "-I.", "-I../..", "-I./include", "-I../../include", "-march=native", "-parallel", "-inline-level=2", "-qemit-build-options", "-qemit-messages", "-multiple-processes=8", "-qoverride-limits", "-falign-loops", "-falign-functions", "-qopt-matmul", "-qopt-mem-layout-trans", "-fpermissive", "-ipo-jobs4", "-Wl,--as-needed,--gc-sections,--print-memory-usage,--relax,--stats", "-ffunction-sections", "-fdata-sections", "-diag-disable=10148,10006,10121,11021,10237", "-par-schedule-auto", "-ipo", "-DHAVE_CONFIG_H", "-Wdate-time", "-D_FORTIFY_SOURCE=2", "-D_REENTRANT", "-g", "-O2", "-fdebug-prefix-map=/home/richard/debs/misc/libxml2/libxml2=.", "-fstack-protector-strong", "-Wformat", "-Werror=format-security", "-march=native", "-pipe", "-Wall", "-O3", "-pedantic", "-W", "-Wformat", "-Wno-format-extra-args", "-Wunused", "-Wimplicit", "-Wreturn-type", "-Wswitch", "-Wcomment", "-Wtrigraphs", "-Wchar-subscripts", "-Wuninitialized", "-Wparentheses", "-Wshadow", "-Wpointer-arith", "-Wcast-align", "-Wwrite-strings", "-Waggregate-return", "-Wstrict-prototypes", "-Wmissing-prototypes", "-Wnested-externs", "-Winline", "-Wredundant-decls", "-Wno-long-long", "-c", "-o", "xmlregexp.o" ],
+    "objects" : [
+        {
+            "object_name" : "xmlregexp.o",
+            "source_name" : "../../xmlregexp.c",
+            "start_time" : "2018-12-03T01:48:42Z",
+            "messages" : [
+                {
+                    "msg" : "this switch statement does not have a default clause\n      switch (type) {\n      ^",
+                    "line" : "945",
+                    "diagnostic_num" : "2338",
+                    "file" : "..\/..\/xmlregexp.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "this switch statement does not have a default clause\n      switch (type) {\n      ^",
+                    "line" : "1057",
+                    "diagnostic_num" : "2338",
+                    "file" : "..\/..\/xmlregexp.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "this switch statement does not have a default clause\n      switch (type) {\n      ^",
+                    "line" : "2799",
+                    "diagnostic_num" : "2338",
+                    "file" : "..\/..\/xmlregexp.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "this switch statement does not have a default clause\n      switch (atom->type) {\n      ^",
+                    "line" : "2972",
+                    "diagnostic_num" : "2338",
+                    "file" : "..\/..\/xmlregexp.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "this switch statement does not have a default clause\n              switch (cur) {\n              ^",
+                    "line" : "4912",
+                    "diagnostic_num" : "2338",
+                    "file" : "..\/..\/xmlregexp.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "this switch statement does not have a default clause\n  \tswitch (cur) {\n  \t^",
+                    "line" : "4932",
+                    "diagnostic_num" : "2338",
+                    "file" : "..\/..\/xmlregexp.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "this switch statement does not have a default clause\n      switch (exp->type) {\n      ^",
+                    "line" : "6951",
+                    "diagnostic_num" : "2338",
+                    "file" : "..\/..\/xmlregexp.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "this switch statement does not have a default clause\n      switch (exp->type) {\n      ^",
+                    "line" : "7004",
+                    "diagnostic_num" : "2338",
+                    "file" : "..\/..\/xmlregexp.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "this switch statement does not have a default clause\n      switch (exp->type) {\n      ^",
+                    "line" : "7087",
+                    "diagnostic_num" : "2338",
+                    "file" : "..\/..\/xmlregexp.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "this switch statement does not have a default clause\n      switch (exp->type) {\n      ^",
+                    "line" : "7379",
+                    "diagnostic_num" : "2338",
+                    "file" : "..\/..\/xmlregexp.c",
+                    "type" : "warning"
+                }
+            ],
+            "end_time" : "2018-12-03T01:48:43Z"
+        }
+    ]
+}

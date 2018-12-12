@@ -1,0 +1,12 @@
+Package: libxml2-utils-dbgsym
+Source: libxml2
+Version: 2.9.8-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
+Installed-Size: 68
+Depends: libxml2-utils (= 2.9.8-1)
+Section: debug
+Priority: optional
+Description: debug symbols for libxml2-utils
+Build-Ids: a8711f4f864429e268c028ca84ddd3ef482885ee cb149940a4ab71b0cb2d421baf88a32fc936d72d

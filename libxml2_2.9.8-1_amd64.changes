@@ -1,0 +1,61 @@
+Format: 1.8
+Date: Mon, 03 Dec 2018 00:56:46 +0100
+Source: libxml2
+Binary: libxml2 libxml2-utils libxml2-dev libxml2-dbg libxml2-doc python-libxml2 python-libxml2-dbg python3-libxml2 python3-libxml2-dbg
+Built-For-Profiles: nobiarch nocheck
+Architecture: amd64 all
+Version: 2.9.8-1
+Distribution: UNRELEASED
+Urgency: medium
+Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
+Changed-By: Richard Yang <richard@yenforyang.com>
+Description:
+ libxml2    - GNOME XML library
+ libxml2-dbg - Debugging symbols for the GNOME XML library
+ libxml2-dev - Development files for the GNOME XML library
+ libxml2-doc - Documentation for the GNOME XML library
+ libxml2-utils - XML utilities
+ python-libxml2 - Python bindings for the GNOME XML library
+ python-libxml2-dbg - Python bindings for the GNOME XML library (debug extension)
+ python3-libxml2 - Python3 bindings for the GNOME XML library
+ python3-libxml2-dbg - Python3 bindings for the GNOME XML library (debug extension)
+Changes:
+ libxml2 (2.9.8-1) UNRELEASED; urgency=medium
+ .
+   * New upstream release
+Checksums-Sha1:
+ ad422dad13f886945628e7b3372e5f363e9a9e83 1643912 libxml2-dbg_2.9.8-1_amd64.deb
+ ae5aa24d2f3b95cddeaf0766ebb5c86e5364952b 8591920 libxml2-dev_2.9.8-1_amd64.deb
+ 612bece5badcf8ccc072c56ce3ff468e16e48b72 828192 libxml2-doc_2.9.8-1_all.deb
+ e4af1d67e03dbadbb41fe88d6f486235652aaaad 35460 libxml2-utils-dbgsym_2.9.8-1_amd64.deb
+ 22802329429c05e71560ac3cd91f48da4ba2b35b 104712 libxml2-utils_2.9.8-1_amd64.deb
+ 6b8b8792db8c70ab791eac82d71a2852fbe59871 9992 libxml2_2.9.8-1_amd64.buildinfo
+ 2b22c3134ef35d25e26bb68857b68a4382a252b7 994136 libxml2_2.9.8-1_amd64.deb
+ f67e5bef00b39a364925f803de685d0128555653 388180 python-libxml2-dbg_2.9.8-1_amd64.deb
+ 4b2a0202d93927cad2d0ee85683c745ede951fe7 222888 python-libxml2_2.9.8-1_amd64.deb
+ 42dac3edfc4601e6286a8aee3f37e0a700a015f1 392492 python3-libxml2-dbg_2.9.8-1_amd64.deb
+ 91e2559857c2054fa99043ab6a93b69c2c0bb5f3 208116 python3-libxml2_2.9.8-1_amd64.deb
+Checksums-Sha256:
+ d4e9c9f000535e1ac9b42bc1bd230efacb842cc19f1217788f841398b714b5f0 1643912 libxml2-dbg_2.9.8-1_amd64.deb
+ 13b456351a6f42f44b9162fefc4402cc02e67f375860773fc8f6f1e1bc92d2b7 8591920 libxml2-dev_2.9.8-1_amd64.deb
+ f9f7124ad9939bbb3f202f9cd6d2991f56ff67f0cdd08d2e5b2f7e6d6d15f733 828192 libxml2-doc_2.9.8-1_all.deb
+ 546adbda7ee70342c7867062f1d13d319fa5018193d211f06ed9a923f1a229b1 35460 libxml2-utils-dbgsym_2.9.8-1_amd64.deb
+ 9d001c704215670b3fbbef91a79005deff9c8eb14e57e74b7548cb62d2993574 104712 libxml2-utils_2.9.8-1_amd64.deb
+ a807a1e16284322f6183a23274e48ba1db6ed6cec3018f9e50f4b322dc3769e4 9992 libxml2_2.9.8-1_amd64.buildinfo
+ 328405b79c9af4b007e08f59d529ebdb23e1eba803f9a93fbbf9327f85edf3f4 994136 libxml2_2.9.8-1_amd64.deb
+ 95e61c601cccdf91a9b65f2845baf8eed062520a0cac4bcdcaf43d1d6d35b36a 388180 python-libxml2-dbg_2.9.8-1_amd64.deb
+ 8b2168454777f2276302a7bcbbd456481cfe5e208023c43bc744a1b4299d4217 222888 python-libxml2_2.9.8-1_amd64.deb
+ 0da81b2da8a9628ccd39d6ebe9d8820798da9141cadbd1e423485225e0179d57 392492 python3-libxml2-dbg_2.9.8-1_amd64.deb
+ 77321c3d8fde0bab96f761291fedded036d3c227633e80c464a228a17dd3d0d3 208116 python3-libxml2_2.9.8-1_amd64.deb
+Files:
+ 9daf2ee048d2107b08e5945e2c418a15 1643912 debug optional libxml2-dbg_2.9.8-1_amd64.deb
+ 75e2e41397a26859f82bd39ce832ada4 8591920 libdevel optional libxml2-dev_2.9.8-1_amd64.deb
+ e659049e1275c28c19750ea6aa3d07fc 828192 doc optional libxml2-doc_2.9.8-1_all.deb
+ a1a2c156d8c2f5d0defd79e21217f78a 35460 debug optional libxml2-utils-dbgsym_2.9.8-1_amd64.deb
+ da1a10c303ccf6cabdc4e1052b6bf4da 104712 text optional libxml2-utils_2.9.8-1_amd64.deb
+ 61a489ac1971e3ee87c4614b17434d4c 9992 libs optional libxml2_2.9.8-1_amd64.buildinfo
+ 028a9b16f2ccb696cc2d44c3267053d9 994136 libs optional libxml2_2.9.8-1_amd64.deb
+ 57659a916863b28dc1029c658f1e0c4d 388180 debug optional python-libxml2-dbg_2.9.8-1_amd64.deb
+ 504e97b4f5a1b92db160a9c024be762a 222888 python optional python-libxml2_2.9.8-1_amd64.deb
+ 1ac32956067035f6665c25d567c16ab2 392492 debug optional python3-libxml2-dbg_2.9.8-1_amd64.deb
+ 2f9f3188a672f9d1d7bc8362fabc9f92 208116 python optional python3-libxml2_2.9.8-1_amd64.deb

@@ -1,0 +1,9 @@
+libxml2
+libxml2-utils
+libxml2-dev
+libxml2-dbg
+libxml2-doc
+python-libxml2
+python-libxml2-dbg
+python3-libxml2
+python3-libxml2-dbg

@@ -1,0 +1,98 @@
+{
+    "driver_name" : "icc",
+    "options" : [ "-I.", "-I../..", "-I./include", "-I../../include", "-march=native", "-parallel", "-inline-level=2", "-qemit-build-options", "-qemit-messages", "-multiple-processes=8", "-qoverride-limits", "-falign-loops", "-falign-functions", "-qopt-matmul", "-qopt-mem-layout-trans", "-fpermissive", "-ipo-jobs4", "-Wl,--as-needed,--gc-sections,--print-memory-usage,--relax,--stats", "-ffunction-sections", "-fdata-sections", "-diag-disable=10148,10006,10121,11021,10237", "-par-schedule-auto", "-ipo", "-DHAVE_CONFIG_H", "-Wdate-time", "-D_FORTIFY_SOURCE=2", "-D_REENTRANT", "-g", "-O2", "-fdebug-prefix-map=/home/richard/debs/misc/libxml2/libxml2=.", "-fstack-protector-strong", "-Wformat", "-Werror=format-security", "-march=native", "-pipe", "-Wall", "-O3", "-pedantic", "-W", "-Wformat", "-Wno-format-extra-args", "-Wunused", "-Wimplicit", "-Wreturn-type", "-Wswitch", "-Wcomment", "-Wtrigraphs", "-Wchar-subscripts", "-Wuninitialized", "-Wparentheses", "-Wshadow", "-Wpointer-arith", "-Wcast-align", "-Wwrite-strings", "-Waggregate-return", "-Wstrict-prototypes", "-Wmissing-prototypes", "-Wnested-externs", "-Winline", "-Wredundant-decls", "-Wno-long-long", "-c", "-fPIC", "-DPIC", "-o", ".libs/threads.o" ],
+    "objects" : [
+        {
+            "object_name" : ".libs/threads.o",
+            "source_name" : "../../threads.c",
+            "start_time" : "2018-12-03T01:48:41Z",
+            "messages" : [
+                {
+                    "msg" : "function prototype is missing the argument types\n  extern int pthread_mutex_init ()\n             ^",
+                    "line" : "66",
+                    "diagnostic_num" : "2959",
+                    "file" : "..\/..\/threads.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "function prototype is missing the argument types\n  extern int pthread_mutex_destroy ()\n             ^",
+                    "line" : "68",
+                    "diagnostic_num" : "2959",
+                    "file" : "..\/..\/threads.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "function prototype is missing the argument types\n  extern int pthread_mutex_lock ()\n             ^",
+                    "line" : "70",
+                    "diagnostic_num" : "2959",
+                    "file" : "..\/..\/threads.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "function prototype is missing the argument types\n  extern int pthread_mutex_unlock ()\n             ^",
+                    "line" : "72",
+                    "diagnostic_num" : "2959",
+                    "file" : "..\/..\/threads.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "function prototype is missing the argument types\n  extern int pthread_cond_init ()\n             ^",
+                    "line" : "74",
+                    "diagnostic_num" : "2959",
+                    "file" : "..\/..\/threads.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "function prototype is missing the argument types\n  extern int pthread_cond_destroy ()\n             ^",
+                    "line" : "76",
+                    "diagnostic_num" : "2959",
+                    "file" : "..\/..\/threads.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "function prototype is missing the argument types\n  extern int pthread_cond_wait ()\n             ^",
+                    "line" : "78",
+                    "diagnostic_num" : "2959",
+                    "file" : "..\/..\/threads.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "function prototype is missing the argument types\n  extern int pthread_equal ()\n             ^",
+                    "line" : "80",
+                    "diagnostic_num" : "2959",
+                    "file" : "..\/..\/threads.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "function prototype is missing the argument types\n  extern pthread_t pthread_self ()\n                   ^",
+                    "line" : "82",
+                    "diagnostic_num" : "2959",
+                    "file" : "..\/..\/threads.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "function prototype is missing the argument types\n  extern int pthread_key_create ()\n             ^",
+                    "line" : "84",
+                    "diagnostic_num" : "2959",
+                    "file" : "..\/..\/threads.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "function prototype is missing the argument types\n  extern int pthread_key_delete ()\n             ^",
+                    "line" : "86",
+                    "diagnostic_num" : "2959",
+                    "file" : "..\/..\/threads.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "function prototype is missing the argument types\n  extern int pthread_cond_signal ()\n             ^",
+                    "line" : "88",
+                    "diagnostic_num" : "2959",
+                    "file" : "..\/..\/threads.c",
+                    "type" : "warning"
+                }
+            ],
+            "end_time" : "2018-12-03T01:48:41Z"
+        }
+    ]
+}

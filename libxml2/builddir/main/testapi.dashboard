@@ -1,0 +1,91 @@
+{
+    "driver_name" : "icc",
+    "options" : [ "-I.", "-I../..", "-I./include", "-I../../include", "-march=native", "-parallel", "-inline-level=2", "-qemit-build-options", "-qemit-messages", "-multiple-processes=8", "-qoverride-limits", "-falign-loops", "-falign-functions", "-qopt-matmul", "-qopt-mem-layout-trans", "-fpermissive", "-ipo-jobs4", "-Wl,--as-needed,--gc-sections,--print-memory-usage,--relax,--stats", "-ffunction-sections", "-fdata-sections", "-diag-disable=10148,10006,10121,11021,10237", "-par-schedule-auto", "-ipo", "-DHAVE_CONFIG_H", "-Wdate-time", "-D_FORTIFY_SOURCE=2", "-D_REENTRANT", "-g", "-O2", "-fdebug-prefix-map=/home/richard/debs/misc/libxml2/libxml2=.", "-fstack-protector-strong", "-Wformat", "-Werror=format-security", "-march=native", "-pipe", "-Wall", "-O3", "-pedantic", "-W", "-Wformat", "-Wno-format-extra-args", "-Wunused", "-Wimplicit", "-Wreturn-type", "-Wswitch", "-Wcomment", "-Wtrigraphs", "-Wchar-subscripts", "-Wuninitialized", "-Wparentheses", "-Wshadow", "-Wpointer-arith", "-Wcast-align", "-Wwrite-strings", "-Waggregate-return", "-Wstrict-prototypes", "-Wmissing-prototypes", "-Wnested-externs", "-Winline", "-Wredundant-decls", "-Wno-long-long", "-c", "-o", "testapi.o" ],
+    "objects" : [
+        {
+            "object_name" : "testapi.o",
+            "source_name" : "../../testapi.c",
+            "start_time" : "2018-12-03T01:48:45Z",
+            "messages" : [
+                {
+                    "msg" : "deprecated conversion of string literal to char* (should be const char*)\n      if (no == 0) return((char *) \"foo\");\n                          ^",
+                    "line" : "358",
+                    "diagnostic_num" : "3179",
+                    "file" : "..\/..\/testapi.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "deprecated conversion of string literal to char* (should be const char*)\n      if (no == 1) return((char *) \"<foo\/>\");\n                          ^",
+                    "line" : "359",
+                    "diagnostic_num" : "3179",
+                    "file" : "..\/..\/testapi.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "deprecated conversion of string literal to char* (should be const char*)\n      if (no == 2) return((char *) \"test\/ent2\");\n                          ^",
+                    "line" : "360",
+                    "diagnostic_num" : "3179",
+                    "file" : "..\/..\/testapi.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "function \"gen_xmlSchematronPtr\" was declared but never referenced\n  static xmlSchematronPtr gen_xmlSchematronPtr(int no ATTRIBUTE_UNUSED, int nr ATTRIBUTE_UNUSED) {\n                          ^",
+                    "line" : "18040",
+                    "diagnostic_num" : "177",
+                    "file" : "..\/..\/testapi.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "function \"des_xmlSchematronPtr\" was declared but never referenced\n  static void des_xmlSchematronPtr(int no ATTRIBUTE_UNUSED, xmlSchematronPtr val ATTRIBUTE_UNUSED, int nr ATTRIBUTE_UNUSED) {\n              ^",
+                    "line" : "18043",
+                    "diagnostic_num" : "177",
+                    "file" : "..\/..\/testapi.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "function \"gen_xmlSchematronParserCtxtPtr\" was declared but never referenced\n  static xmlSchematronParserCtxtPtr gen_xmlSchematronParserCtxtPtr(int no ATTRIBUTE_UNUSED, int nr ATTRIBUTE_UNUSED) {\n                                    ^",
+                    "line" : "18060",
+                    "diagnostic_num" : "177",
+                    "file" : "..\/..\/testapi.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "function \"des_xmlSchematronParserCtxtPtr\" was declared but never referenced\n  static void des_xmlSchematronParserCtxtPtr(int no ATTRIBUTE_UNUSED, xmlSchematronParserCtxtPtr val ATTRIBUTE_UNUSED, int nr ATTRIBUTE_UNUSED) {\n              ^",
+                    "line" : "18063",
+                    "diagnostic_num" : "177",
+                    "file" : "..\/..\/testapi.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "function \"gen_const_xmlBufPtr\" was declared but never referenced\n  static xmlBufPtr gen_const_xmlBufPtr(int no ATTRIBUTE_UNUSED, int nr ATTRIBUTE_UNUSED) {\n                   ^",
+                    "line" : "18558",
+                    "diagnostic_num" : "177",
+                    "file" : "..\/..\/testapi.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "function \"des_const_xmlBufPtr\" was declared but never referenced\n  static void des_const_xmlBufPtr(int no ATTRIBUTE_UNUSED, const xmlBufPtr val ATTRIBUTE_UNUSED, int nr ATTRIBUTE_UNUSED) {\n              ^",
+                    "line" : "18561",
+                    "diagnostic_num" : "177",
+                    "file" : "..\/..\/testapi.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "function \"gen_xmlSAXHandlerPtr_ptr\" was declared but never referenced\n  static xmlSAXHandlerPtr * gen_xmlSAXHandlerPtr_ptr(int no ATTRIBUTE_UNUSED, int nr ATTRIBUTE_UNUSED) {\n                            ^",
+                    "line" : "34503",
+                    "diagnostic_num" : "177",
+                    "file" : "..\/..\/testapi.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "function \"des_xmlSAXHandlerPtr_ptr\" was declared but never referenced\n  static void des_xmlSAXHandlerPtr_ptr(int no ATTRIBUTE_UNUSED, xmlSAXHandlerPtr * val ATTRIBUTE_UNUSED, int nr ATTRIBUTE_UNUSED) {\n              ^",
+                    "line" : "34506",
+                    "diagnostic_num" : "177",
+                    "file" : "..\/..\/testapi.c",
+                    "type" : "warning"
+                }
+            ],
+            "end_time" : "2018-12-03T01:48:48Z"
+        }
+    ]
+}

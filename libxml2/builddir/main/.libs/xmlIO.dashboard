@@ -1,0 +1,28 @@
+{
+    "driver_name" : "icc",
+    "options" : [ "-I.", "-I../..", "-I./include", "-I../../include", "-march=native", "-parallel", "-inline-level=2", "-qemit-build-options", "-qemit-messages", "-multiple-processes=8", "-qoverride-limits", "-falign-loops", "-falign-functions", "-qopt-matmul", "-qopt-mem-layout-trans", "-fpermissive", "-ipo-jobs4", "-Wl,--as-needed,--gc-sections,--print-memory-usage,--relax,--stats", "-ffunction-sections", "-fdata-sections", "-diag-disable=10148,10006,10121,11021,10237", "-par-schedule-auto", "-ipo", "-DHAVE_CONFIG_H", "-Wdate-time", "-D_FORTIFY_SOURCE=2", "-D_REENTRANT", "-g", "-O2", "-fdebug-prefix-map=/home/richard/debs/misc/libxml2/libxml2=.", "-fstack-protector-strong", "-Wformat", "-Werror=format-security", "-march=native", "-pipe", "-Wall", "-O3", "-pedantic", "-W", "-Wformat", "-Wno-format-extra-args", "-Wunused", "-Wimplicit", "-Wreturn-type", "-Wswitch", "-Wcomment", "-Wtrigraphs", "-Wchar-subscripts", "-Wuninitialized", "-Wparentheses", "-Wshadow", "-Wpointer-arith", "-Wcast-align", "-Wwrite-strings", "-Waggregate-return", "-Wstrict-prototypes", "-Wmissing-prototypes", "-Wnested-externs", "-Winline", "-Wredundant-decls", "-Wno-long-long", "-c", "-fPIC", "-DPIC", "-o", ".libs/xmlIO.o" ],
+    "objects" : [
+        {
+            "object_name" : ".libs/xmlIO.o",
+            "source_name" : "../../xmlIO.c",
+            "start_time" : "2018-12-03T01:48:39Z",
+            "messages" : [
+                {
+                    "msg" : "deprecated conversion of string literal to char* (should be const char*)\n      char *\t\t\tcontent_type = (char *) \"text\/xml\";\n            \t\t\t               ^",
+                    "line" : "2044",
+                    "diagnostic_num" : "3179",
+                    "file" : "..\/..\/xmlIO.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "deprecated conversion of string literal to char* (should be const char*)\n  \tcontent_encoding = (char *) \"Content-Encoding: gzip\";\n  \t                   ^",
+                    "line" : "2056",
+                    "diagnostic_num" : "3179",
+                    "file" : "..\/..\/xmlIO.c",
+                    "type" : "warning"
+                }
+            ],
+            "end_time" : "2018-12-03T01:48:39Z"
+        }
+    ]
+}
