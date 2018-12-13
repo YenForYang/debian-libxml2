@@ -3,7 +3,7 @@ Source: libxml2
 Version: 2.9.8-1
 Architecture: amd64
 Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
-Installed-Size: 1834
+Installed-Size: 1717
 Depends: libxml2 (= 2.9.8-1)
 Section: debug
 Priority: optional
@@ -18,4 +18,4 @@ Description: Debugging symbols for the GNOME XML library
  metalanguage for markup languages.
  .
  This package provides the debugging symbols for the library.
-Build-Ids: eed2aa6ad740cddbf1e7d7b65729aa0cdf96b6c6
+Build-Ids: 578259bd30d2156f8e29233bf3dd10ca1aa8fe2c

@@ -46,12 +46,10 @@ b9f0b8acddfee9b620ea822978a51d29  usr/include/libxml2/libxml/xmlunicode.h
 2e60b359a61db15d05409ebef1b140b1  usr/include/libxml2/libxml/xpath.h
 c18fad3cce22369a75166afed6343bcd  usr/include/libxml2/libxml/xpathInternals.h
 5b8025430888d5b99d03d159ddc78388  usr/include/libxml2/libxml/xpointer.h
-81060611a871417e9bb67530bd833b94  usr/lib/x86_64-linux-gnu/libxml2.a
+1a2572b0c8f337a14155ea761ba5e27f  usr/lib/x86_64-linux-gnu/libxml2.a
 fd222061ba28794745633c13e364fd6b  usr/lib/x86_64-linux-gnu/pkgconfig/libxml-2.0.pc
 5723f02d510ef1c753f934abc62ee008  usr/lib/x86_64-linux-gnu/xml2Conf.sh
 c6969a0bf79628df8bf639433092d7b2  usr/share/aclocal/libxml2.m4
 e0142b3e9392340920a7ee0794e9fbd0  usr/share/doc/libxml2-dev/changelog.Debian.gz
 a0c235b1112ccb07a06c6a5baecdd923  usr/share/doc/libxml2-dev/changelog.gz
 2796e21c9e379750ba4ec505f530a337  usr/share/doc/libxml2-dev/copyright
-95a47dd66d38ee4261dba47b9b4288c7  usr/share/man/man1/xml2-config.1.gz
-96b8aae2a9a59e57749f0ea89a904661  usr/share/man/man3/libxml.3.gz

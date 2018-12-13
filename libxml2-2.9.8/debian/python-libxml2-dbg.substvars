@@ -1,6 +1,6 @@
 python:Depends=python-dbg (<< 2.8), python-dbg (>= 2.7~), python-dbg:any (<< 2.8), python-dbg:any (>= 2.7~)
 python:Provides=python2.7-libxml2-dbg
 python:Versions=2.7
-shlibs:Depends=libc6 (>= 2.14), libgcc1 (>= 1:3.0), libpython2.7-dbg (>= 2.7), libxml2 (>= 2.7.4)
+shlibs:Depends=libc6 (>= 2.14), libpython2.7-dbg (>= 2.7), libxml2 (>= 2.7.4)
 misc:Depends=
 misc:Pre-Depends=

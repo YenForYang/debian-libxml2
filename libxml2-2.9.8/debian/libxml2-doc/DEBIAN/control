@@ -3,7 +3,7 @@ Source: libxml2
 Version: 2.9.8-1
 Architecture: all
 Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
-Installed-Size: 8710
+Installed-Size: 8708
 Suggests: devhelp
 Section: doc
 Priority: optional

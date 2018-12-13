@@ -17,7 +17,7 @@ old_library='libxml2mod.a'
 inherited_linker_flags=''
 
 # Libraries that this one depends upon.
-dependency_libs=' /usr/lib/x86_64-linux-gnu/libxml2.la -licui18n -licuuc -licudata -lz -llzma -L/usr/lib/python3.7/config-3.7dm-x86_64-linux-gnu -L/usr/lib -lpython3.7dm -lpthread -ldl -lutil -lm -L/home/richard/debs/misc/libxml2/libxml2-2.9.8/debian/tmp/usr/lib/x86_64-linux-gnu'
+dependency_libs=' /usr/lib/x86_64-linux-gnu/libxml2.la -licui18n -licuuc -licudata -lz -llzma -L/usr/lib/python3.7/config-3.7dm-x86_64-linux-gnu -L/usr/lib -lpython3.7dm -lpthread -ldl -lutil -lm -L/dev/shm/libxml2/libxml2-2.9.8/debian/tmp/usr/lib/x86_64-linux-gnu'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''

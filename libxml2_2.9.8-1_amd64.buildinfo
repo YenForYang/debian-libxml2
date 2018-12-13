@@ -4,41 +4,41 @@ Binary: libxml2 libxml2-utils libxml2-dev libxml2-dbg libxml2-doc python-libxml2
 Architecture: all amd64
 Version: 2.9.8-1
 Checksums-Md5:
- 9daf2ee048d2107b08e5945e2c418a15 1643912 libxml2-dbg_2.9.8-1_amd64.deb
- 75e2e41397a26859f82bd39ce832ada4 8591920 libxml2-dev_2.9.8-1_amd64.deb
- e659049e1275c28c19750ea6aa3d07fc 828192 libxml2-doc_2.9.8-1_all.deb
- a1a2c156d8c2f5d0defd79e21217f78a 35460 libxml2-utils-dbgsym_2.9.8-1_amd64.deb
- da1a10c303ccf6cabdc4e1052b6bf4da 104712 libxml2-utils_2.9.8-1_amd64.deb
- 028a9b16f2ccb696cc2d44c3267053d9 994136 libxml2_2.9.8-1_amd64.deb
- 57659a916863b28dc1029c658f1e0c4d 388180 python-libxml2-dbg_2.9.8-1_amd64.deb
- 504e97b4f5a1b92db160a9c024be762a 222888 python-libxml2_2.9.8-1_amd64.deb
- 1ac32956067035f6665c25d567c16ab2 392492 python3-libxml2-dbg_2.9.8-1_amd64.deb
- 2f9f3188a672f9d1d7bc8362fabc9f92 208116 python3-libxml2_2.9.8-1_amd64.deb
+ eca3f7bc7dbc20a750489290ac07a46c 1617236 libxml2-dbg_2.9.8-1_amd64.deb
+ 575c1451793d1e6191f4318cf212ddeb 8492840 libxml2-dev_2.9.8-1_amd64.deb
+ ff1312085ac2dfc9a46899ced43a21f0 828044 libxml2-doc_2.9.8-1_all.deb
+ 982f54f770d2a05523a7bf3e05c7ff29 34840 libxml2-utils-dbgsym_2.9.8-1_amd64.deb
+ 4490b09e445572f9ffa39b94e6708cdf 92384 libxml2-utils_2.9.8-1_amd64.deb
+ eafbc204759a533e13b37aca8cc73b9e 967088 libxml2_2.9.8-1_amd64.deb
+ 7f6d43cd170687fd46344aaa812dd666 394368 python-libxml2-dbg_2.9.8-1_amd64.deb
+ 589de5f18197ec5a579842c69b697fda 205884 python-libxml2_2.9.8-1_amd64.deb
+ c433a68fe9d2d7dbc325e482db8ff365 397500 python3-libxml2-dbg_2.9.8-1_amd64.deb
+ e6656f209c40296a21d9958fd5b8d206 206084 python3-libxml2_2.9.8-1_amd64.deb
 Checksums-Sha1:
- ad422dad13f886945628e7b3372e5f363e9a9e83 1643912 libxml2-dbg_2.9.8-1_amd64.deb
- ae5aa24d2f3b95cddeaf0766ebb5c86e5364952b 8591920 libxml2-dev_2.9.8-1_amd64.deb
- 612bece5badcf8ccc072c56ce3ff468e16e48b72 828192 libxml2-doc_2.9.8-1_all.deb
- e4af1d67e03dbadbb41fe88d6f486235652aaaad 35460 libxml2-utils-dbgsym_2.9.8-1_amd64.deb
- 22802329429c05e71560ac3cd91f48da4ba2b35b 104712 libxml2-utils_2.9.8-1_amd64.deb
- 2b22c3134ef35d25e26bb68857b68a4382a252b7 994136 libxml2_2.9.8-1_amd64.deb
- f67e5bef00b39a364925f803de685d0128555653 388180 python-libxml2-dbg_2.9.8-1_amd64.deb
- 4b2a0202d93927cad2d0ee85683c745ede951fe7 222888 python-libxml2_2.9.8-1_amd64.deb
- 42dac3edfc4601e6286a8aee3f37e0a700a015f1 392492 python3-libxml2-dbg_2.9.8-1_amd64.deb
- 91e2559857c2054fa99043ab6a93b69c2c0bb5f3 208116 python3-libxml2_2.9.8-1_amd64.deb
+ cd05619d4de1c93d76f667f5ec92cc7618deda80 1617236 libxml2-dbg_2.9.8-1_amd64.deb
+ 21cf61e7e9937f61f25519c928e243fb497b716f 8492840 libxml2-dev_2.9.8-1_amd64.deb
+ 87970e9bd8c3de24d7fbc6e463a23fc0e92c00f4 828044 libxml2-doc_2.9.8-1_all.deb
+ b40d7c3e85c08093e7b3e108ce25eea798c8d3b4 34840 libxml2-utils-dbgsym_2.9.8-1_amd64.deb
+ 37ca8967d34829fe30eb3d7fbc4ef49ba63487c4 92384 libxml2-utils_2.9.8-1_amd64.deb
+ 8a743539e71f18cfa11f21c3601421987329d1fb 967088 libxml2_2.9.8-1_amd64.deb
+ d473a57403291762a57b5e5b78d55b3d5701ab63 394368 python-libxml2-dbg_2.9.8-1_amd64.deb
+ 3c123b0ab3a782b95f2a9edc2baa80bde8d9a644 205884 python-libxml2_2.9.8-1_amd64.deb
+ 8e7f498221e7b5453acdb3153cc46c3b8f9d2efb 397500 python3-libxml2-dbg_2.9.8-1_amd64.deb
+ 86bcf1aa120c0150455e2d94f3b6dc6daa03d1ab 206084 python3-libxml2_2.9.8-1_amd64.deb
 Checksums-Sha256:
- d4e9c9f000535e1ac9b42bc1bd230efacb842cc19f1217788f841398b714b5f0 1643912 libxml2-dbg_2.9.8-1_amd64.deb
- 13b456351a6f42f44b9162fefc4402cc02e67f375860773fc8f6f1e1bc92d2b7 8591920 libxml2-dev_2.9.8-1_amd64.deb
- f9f7124ad9939bbb3f202f9cd6d2991f56ff67f0cdd08d2e5b2f7e6d6d15f733 828192 libxml2-doc_2.9.8-1_all.deb
- 546adbda7ee70342c7867062f1d13d319fa5018193d211f06ed9a923f1a229b1 35460 libxml2-utils-dbgsym_2.9.8-1_amd64.deb
- 9d001c704215670b3fbbef91a79005deff9c8eb14e57e74b7548cb62d2993574 104712 libxml2-utils_2.9.8-1_amd64.deb
- 328405b79c9af4b007e08f59d529ebdb23e1eba803f9a93fbbf9327f85edf3f4 994136 libxml2_2.9.8-1_amd64.deb
- 95e61c601cccdf91a9b65f2845baf8eed062520a0cac4bcdcaf43d1d6d35b36a 388180 python-libxml2-dbg_2.9.8-1_amd64.deb
- 8b2168454777f2276302a7bcbbd456481cfe5e208023c43bc744a1b4299d4217 222888 python-libxml2_2.9.8-1_amd64.deb
- 0da81b2da8a9628ccd39d6ebe9d8820798da9141cadbd1e423485225e0179d57 392492 python3-libxml2-dbg_2.9.8-1_amd64.deb
- 77321c3d8fde0bab96f761291fedded036d3c227633e80c464a228a17dd3d0d3 208116 python3-libxml2_2.9.8-1_amd64.deb
+ 31e6b6b99d2a5f078cd2cf2584242a47aca19dd81f2a1d0d8b0cddd6adb9fe8c 1617236 libxml2-dbg_2.9.8-1_amd64.deb
+ 997a601b8299475d2ec8a1e2dfd10881882530662db1df90eecf7665021ae692 8492840 libxml2-dev_2.9.8-1_amd64.deb
+ dd59227a66a45db67fff5cfc371cf995fe6c2333920cf961d1522481d789b287 828044 libxml2-doc_2.9.8-1_all.deb
+ c033044b684d86091c88a8a990d9f3c6b1d204affa2889e8fd6fcebb9ef682ec 34840 libxml2-utils-dbgsym_2.9.8-1_amd64.deb
+ fb13133f3c9dd544bc455ae4b8043c93fe9fccf9546775e4225e9d6c9f2d4f1b 92384 libxml2-utils_2.9.8-1_amd64.deb
+ 55b253dcccf87d430b36c62e202c4a50b45bfb35efeca4c933879e67bff004b6 967088 libxml2_2.9.8-1_amd64.deb
+ 41235725a9767c4bd055aa3aee938c09e8fa969b63ca6104d86cab5a28a46548 394368 python-libxml2-dbg_2.9.8-1_amd64.deb
+ 5da099360109eddf851a492eff7fac777782f3f035f9de3dd882740641c83833 205884 python-libxml2_2.9.8-1_amd64.deb
+ bb6c7def76df3c9364fb6d6c2e8b1600a34f7b52cd2250354cb1d9d2e730dace 397500 python3-libxml2-dbg_2.9.8-1_amd64.deb
+ ae73108047340c61c978148c77f242ebed3bc4ff55466b41034851b61e4fb806 206084 python3-libxml2_2.9.8-1_amd64.deb
 Build-Origin: Debian
 Build-Architecture: amd64
-Build-Date: Mon, 03 Dec 2018 04:53:41 +0100
+Build-Date: Thu, 13 Dec 2018 03:06:20 +0100
 Installed-Build-Depends:
  autoconf (= 2.69-11),
  automake (= 1:1.16.1-4),
@@ -47,20 +47,20 @@ Installed-Build-Depends:
  base-files (= 10.1),
  base-passwd (= 3.5.45),
  bash (= 4.4.18-3.1),
- binutils (= 2.31.1-9),
- binutils-common (= 2.31.1-9),
- binutils-x86-64-linux-gnu (= 2.31.1-9),
+ binutils (= 2.31.1-10),
+ binutils-common (= 2.31.1-10),
+ binutils-x86-64-linux-gnu (= 2.31.1-10),
  bsdmainutils (= 11.1.2+b1),
  bsdutils (= 1:2.32.1-0.1),
  build-essential (= 12.5),
  bzip2 (= 1.0.6-9),
  coreutils (= 8.30-1),
  cpp (= 4:8.2.0-2),
- cpp-6 (= 6.5.0-1),
+ cpp-7 (= 7.3.0-30),
  cpp-8 (= 8.2.0-9),
  dash (= 0.5.10.2-2),
  debconf (= 1.5.69),
- debhelper (= 11.5.3),
+ debhelper (= 11.5.4),
  debianutils (= 4.8.6),
  dh-autoreconf (= 19),
  dh-python (= 3.20180927),
@@ -74,9 +74,9 @@ Installed-Build-Depends:
  findutils (= 4.6.0+git+20181018-1),
  g++ (= 4:8.2.0-2),
  g++-8 (= 8.2.0-9),
+ gawk (= 1:4.2.1+dfsg-1),
  gcc (= 4:8.2.0-2),
- gcc-6 (= 6.5.0-1),
- gcc-6-base (= 6.5.0-1),
+ gcc-7 (= 7.3.0-30),
  gcc-7-base (= 7.3.0-30),
  gcc-8 (= 8.2.0-9),
  gcc-8-base (= 8.2.0-9),
@@ -90,17 +90,18 @@ Installed-Build-Depends:
  hostname (= 3.21),
  icu-devtools (= 63.1-4),
  init-system-helpers (= 1.56),
+ install-info (= 6.5.0.dfsg.1-4),
  intel-comp-ps-ss-bec-19.0.1-144 (= 19.0.1-144),
  intltool-debian (= 0.35.0+20060710.4),
  libacl1 (= 2.2.52-3+b1),
  libarchive-zip-perl (= 1.64-1),
- libasan3 (= 6.5.0-1),
+ libasan4 (= 7.3.0-30),
  libasan5 (= 8.2.0-9),
  libatomic1 (= 8.2.0-9),
  libattr1 (= 1:2.4.47-2+b2),
  libaudit-common (= 1:2.8.4-2),
  libaudit1 (= 1:2.8.4-2),
- libbinutils (= 2.31.1-9),
+ libbinutils (= 2.31.1-10),
  libblkid1 (= 2.32.1-0.1),
  libbsd0 (= 0.9.1-1),
  libbz2-1.0 (= 1.0.6-9),
@@ -122,7 +123,7 @@ Installed-Build-Depends:
  libffi6 (= 3.2.1-9),
  libfile-stripnondeterminism-perl (= 0.45.0-1),
  libfreetype6 (= 2.9.1-3),
- libgcc-6-dev (= 6.5.0-1),
+ libgcc-7-dev (= 7.3.0-30),
  libgcc-8-dev (= 8.2.0-9),
  libgcc1 (= 1:8.2.0-9),
  libgcrypt20 (= 1.8.4-3),
@@ -152,8 +153,8 @@ Installed-Build-Depends:
  libitm1 (= 8.2.0-9),
  liblsan0 (= 8.2.0-9),
  liblz4-1 (= 1.8.2-1),
- liblzma-dev (= 5.2.2-1.3),
- liblzma5 (= 5.2.2-1.3),
+ liblzma-dev (= 5.2.4-1),
+ liblzma5 (= 5.2.4-1),
  libmagic-mgc (= 1:5.35-1),
  libmagic1 (= 1:5.35-1),
  libmount1 (= 2.32.1-0.1),
@@ -218,9 +219,9 @@ Installed-Build-Depends:
  libunistring0 (= 0.9.6+really0.9.3-0.1),
  libuuid1 (= 2.32.1-0.1),
  libxml2 (= 2.9.8-1),
- linux-libc-dev (= 4.18.10-2+b1),
+ linux-libc-dev (= 4.18.20-2),
  login (= 1:4.5-1.1),
- m4 (= 1.4.18-1),
+ m4 (= 1.4.18-2),
  make (= 4.2.1-1.2),
  man-db (= 2.8.4-3),
  mawk (= 1.3.3-17),
@@ -268,18 +269,18 @@ Installed-Build-Depends:
  sysvinit-utils (= 2.92~beta-2),
  tar (= 1.30+dfsg-3),
  util-linux (= 2.32.1-0.1),
- xz-utils (= 5.2.2-1.3),
+ xz-utils (= 5.2.4-1),
  zlib1g (= 1:1.2.11.dfsg-1),
  zlib1g-dev (= 1:1.2.11.dfsg-1)
 Environment:
  AR="xiar"
  CC="icc"
  CXX="icpc"
- DEB_BUILD_OPTIONS="nocheck parallel=8"
- DEB_BUILD_PROFILES="nobiarch nocheck"
- DEB_CFLAGS_SET="-g -O2 -fdebug-prefix-map=/home/richard/debs/misc/libxml2/libxml2-2.9.8=. -fstack-protector-strong -Wformat -Werror=format-security -march=native -pipe"
- DEB_CXXFLAGS_SET="-g -O2 -fdebug-prefix-map=/home/richard/debs/misc/libxml2/libxml2-2.9.8=. -fstack-protector-strong -Wformat -Werror=format-security -march=native -pipe"
- DEB_LDFLAGS_SET="-Wl,-z,relro -Wl,--as-needed,--gc-sections,--stats"
+ DEB_BUILD_OPTIONS="nocheck nodoc parallel=8"
+ DEB_BUILD_PROFILES="nobiarch nocheck nodoc"
+ DEB_CFLAGS_SET="-g -O2 -fdebug-prefix-map=/dev/shm/libxml2/libxml2-2.9.8=. -fstack-protector-strong -Wformat -Werror=format-security -march=native -pipe"
+ DEB_CXXFLAGS_SET="-g -O2 -fdebug-prefix-map=/dev/shm/libxml2/libxml2-2.9.8=. -fstack-protector-strong -Wformat -Werror=format-security -march=native -pipe"
+ DEB_LDFLAGS_SET="-Wl,-z,relro -Wl,--as-needed,--gc-sections,--relax"
  LANG="en_US.UTF-8"
  LC_CTYPE="en_US.UTF-8"
  LD="xild"

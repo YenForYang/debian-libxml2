@@ -3,7 +3,7 @@ Source: libxml2
 Version: 2.9.8-1
 Architecture: amd64
 Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
-Installed-Size: 35376
+Installed-Size: 34667
 Depends: libicu-dev, libxml2 (= 2.9.8-1)
 Suggests: pkg-config
 Section: libdevel
